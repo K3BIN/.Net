@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Caso_Teresa/1.0.0": {
+        "runtime": {
+          "Caso_Teresa.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Caso_Teresa/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
