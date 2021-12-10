@@ -30,7 +30,14 @@ namespace K_nine
             
             }
         }
+        public void lnk_Click1(object sender, EventArgs e)  //MainMenu
+        {
+            Response.Redirect("MainMenu.aspx");
+        }
 
-       
+        protected void lnk_Click2(object sender, EventArgs e) //Formlario-Registro
+        {
+            Response.Redirect("Formulario.aspx");
+        }
     }
 }

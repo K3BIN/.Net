@@ -26,7 +26,7 @@ namespace K_nine
 
         public void lnk_Click1(object sender, EventArgs e)  //Home
         {
-            Response.Redirect("MainMenu.aspx");
+            Response.Redirect("Ventas.aspx");
         }
 
         public void lnk_Click2(object sender, EventArgs e)  //Home

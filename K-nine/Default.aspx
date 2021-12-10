@@ -17,8 +17,8 @@
         <asp:TextBox ID="txt2" runat="server" placeholder="Contraseña" TextMode="Password" Style="width: 410px; height: 30px;"></asp:TextBox>
     </div>
 
-    <asp:LinkButton ID="LinkButton1" runat="server" class="btn btn-primary" />
+    <asp:LinkButton ID="LinkButton1" runat="server" class="btn btn-primary" OnClick="lnk_Click1"/>
     <br>
-    <asp:LinkButton ID="LinkButton2" runat="server" class="btn btn-link" />
+    <asp:LinkButton ID="LinkButton2" runat="server" class="btn btn-link" OnClick="lnk_Click2"/>
 </asp:Content>
 
