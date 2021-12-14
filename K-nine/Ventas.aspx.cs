@@ -51,13 +51,11 @@ namespace K_nine
                 }
                 GridView1.DataSource = dt;
                 GridView1.DataBind();
+
                 
             }
         }
-        public void lnk_Click(object sender, EventArgs e)  //MainMenu
-        {
-            Response.Redirect("MainMenu.aspx");
-        }
+
         public void lnk_Click1(object sender, EventArgs e)  //MainMenu
         {
             Response.Redirect("MainMenu.aspx");
@@ -66,10 +64,21 @@ namespace K_nine
         {
             Response.Redirect("MainMenu.aspx");
         }
-        public void lnk_Click3(object sender, EventArgs e)  //MainMenu
-        {
-            Response.Redirect("MainMenu.aspx");
-        }
+       /*
+            public void OnConfirm(object sender, EventArgs e)
+            {
+                string confirmValue = Request.Form["confirm_value"];
+                if (confirmValue == "Yes")
+                {
+                Console.WriteLine("cobrado");
+                }
+                else
+                {
+                    this.Page.ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('You clicked NO!')", true);
+                }
+            }
+        */
+           
 
     }
 }
